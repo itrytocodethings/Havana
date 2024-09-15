@@ -18,4 +18,5 @@ COPY --from=builder /sources/figuredata.xml /havana-server/bin
 COPY --from=builder /sources/tools/docker/server-entrypoint.sh /havana-server/bin/run.sh
 WORKDIR /havana-server/bin
 RUN chmod +x run.sh
+EXPOSE 12321 12322 12323
 ENTRYPOINT ["/havana-server/bin/run.sh"]
