@@ -22,6 +22,7 @@ locale.ini
 game.ini
 server.ini
 log4j.properties
+local-dev
 
 Kepler-Server-all.jar
 
